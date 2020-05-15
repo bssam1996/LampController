@@ -21,7 +21,7 @@ void setup() {
   Serial.begin(9600);
   delay(10);
 
-  // prepare GPIO2
+  // prepare GPIO13 (D7)
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, 1);
   
